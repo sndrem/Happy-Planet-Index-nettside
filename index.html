@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test Happy Planet Index</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<script src="ammap/ammap.js" type="text/javascript"></script>
+	<script src="ammap/maps/js/worldLow.js" type="text/javascript"></script>
+
+	<!-- Egen javascript-->
+	<script type="text/javascript" src="javascript/myMap.js"></script>
+	<script type="text/javascript" src="javascript/happyMap.js"></script>
+	<!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="javascript/chart.js"></script>	
+    
+	
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<a class="navbar-brand" href="#">Test av Javascript-kart</a>
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#">Hjem</a>
+					</li>
+					<li>
+						<a href="#">Om prosjektet</a>
+					</li>
+					<li>
+						<a href="#">Om guttakrutt</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="row">
+				<div class="jumbotron">
+					<div class="container">
+						<h1>Happy Planet Index <i class="fa fa-smile-o fa-lg"></i> <i class="fa fa-globe fa-lg"></i></h1> 
+						<p>Hvor glad er du egentlig?</p>
+						<p>
+							<a class="btn btn-primary btn-lg">Lær mer</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 map">
+					<div class="panel panel-success">
+						<div class="panel-heading">Kart over verden</div>
+						<div class="panel-body">
+						   <div id="mapdiv" style="width: 600px; height: 400px"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" id="chart">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						   Basic panel example
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="panel panel-success">
+					  <div class="panel-heading">
+							<h3 class="panel-title">kart over lykkelige land</h3>
+					  </div>
+					  <div class="panel-body">
+							<div id="happyMap" style="width: 600px; height: 400px;"></div>
+					  </div>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		
+	
+	
+	</body>
+
+	<script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.js"></script>
+	
+</html>			
