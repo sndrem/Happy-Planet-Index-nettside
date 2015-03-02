@@ -16,8 +16,8 @@
         var dataProvider = {
             map: "worldLow",
             //getAreasFromMap:true 
-            //areas: [{id:"NO", color:"#0ef100", balloonText:"Heia Norge"}, {id:"SE"}, {id: "GB"}]  
-            images:[{latitude:40.3951, longitude:-73.5619, type:"circle", color:"#0010f1"}]
+            areas: [{id:"QA"}, {id:"LU"}, {id: "KW"}, {id: "AE"}, {id: "DK"}, {id: "TT"}, {id: "US"}, {id: "BE"}, {id: "AU"}, {id: "BH"}, {id: "IS"}, {id: "CA"}, {id: "NL"}, {id: "IE"}]  
+           // images:[{latitude:40.3951, longitude:-73.5619, type:"circle", color:"#0010f1"}]
 
         }; 
         // pass data provider to the map object

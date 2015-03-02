@@ -15,7 +15,8 @@
         */
         var dataProvider = {
             map: "worldLow",
-            getAreasFromMap:true                    
+            //getAreasFromMap:true    
+            areas: [{id:"CR"}, {id:"VN"}, {id:"CO"}, {id: "BZ"}, {id: "SV"}]                
         }; 
         // pass data provider to the map object
         map.dataProvider = dataProvider;

@@ -53,10 +53,53 @@
 			<div class="row">
 				<div class="col-md-8 map">
 					<div class="panel panel-success">
-						<div class="panel-heading">Kart over verden</div>
+						<div class="panel-heading">5 lykkeligste landene basert på Happy Life Index</div>
 						<div class="panel-body">
 						   <div id="mapdiv" style="width: 600px; height: 400px"></div>
+						   <table class="table table-hover">
+						   	<thead>
+						   		<tr>
+						   			<th>Land</th>
+						   			<th>Happy Life Index</th>
+						   		</tr>
+						   	</thead>
+						   	<tbody>
+						   		<tr>
+						   			<td>Costa Rica</td>
+						   			<td>64,0</td>
+						   		</tr>
+						   		<tr>
+						   			<td>Vietnamn</td>
+						   			<td>60,4</td>
+						   		</tr>
+						   		<tr>
+						   			<td>Colombia</td>
+						   			<td>59,8</td>
+						   		</tr>
+						   		<tr>
+						   			<td>Belize</td>
+						   			<td>59,3</td>
+						   		</tr>
+						   		<tr>
+						   			<td>El Salvador</td>
+						   			<td>58,9</td>
+						   		</tr>
+						   	</tbody>
+						   </table>
+						<hr>
+						<h4>Sparql-spørring</h4>
+						<p>Her kommer sparql-spørringer</p>
+						<code>select ?a ?b ?c
+							<br>
+							where {?a ?b ?c .}	
+						</code>	
+
 						</div>
+					
+						 <div class="panel-footer">
+									Oppdatert 3. mars 2015 av Sindre Moldeklev
+						</div>
+						
 					</div>
 				</div>
 				<div class="col-md-4" id="chart">
@@ -71,11 +114,91 @@
 				<div class="col-md-8">
 					<div class="panel panel-success">
 					  <div class="panel-heading">
-							<h3 class="panel-title">kart over lykkelige land</h3>
+							<h3 class="panel-title">Kart over land med størst økologiske fotavtrykk</h3>
 					  </div>
 					  <div class="panel-body">
 							<div id="happyMap" style="width: 600px; height: 400px;"></div>
 					  </div>
+					  <table class="table table-hover">
+					  	<thead>
+					  		<tr>
+					  			<th>Land</th>
+					  			<th>Fotavtrykk</th>
+					  		</tr>
+					  	</thead>
+					  	<tbody>
+					  		<tr>
+					  			<td>Qatar</td>
+					  			<td>11.68</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Luxembourg</td>
+					  			<td>10.72</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Kuwait</td>
+					  			<td>9.72</td>
+					  		</tr>
+					  		<tr>
+					  			<td>United Arab Emirates</td>
+					  			<td>8.88</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Denmark</td>
+					  			<td>8.25</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Triniad and Tobago</td>
+					  			<td>7.56</td>
+					  		</tr>
+					  		<tr>
+					  			<td>United States of America</td>
+					  			<td>7.19</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Belgium</td>
+					  			<td>7.11</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Australia</td>
+					  			<td>6.68</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Bahrain</td>
+					  			<td>6.65</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Iceland</td>
+					  			<td>6.54</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Canada</td>
+					  			<td>6.43</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Netherlands</td>
+					  			<td>6.34</td>
+					  		</tr>
+					  		<tr>
+					  			<td>Ireland</td>
+					  			<td>6.22</td>
+					  		</tr>
+					  	</tbody>
+					  </table>
+						
+						<hr>
+						<h4>Her kommer sparql-spørringen</h4>
+						<code>select ?a ?b ?c
+							<br>
+							where {?a ?b ?c .}	
+						</code>	
+
+						</div>
+
+						<div class="panel-footer">
+									Oppdatert 3. mars 2015 av Sindre Moldeklev
+						</div>
+
 				</div>
 				</div>
 			</div>
